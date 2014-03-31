@@ -19,3 +19,6 @@ java -jar jmxploit.jar --host yourserver --port XXXX --login LOGIN --password PA
 To launch one of them without interactive menu:
 
 java -jar jmxploit.jar --host yourserver --port XXXX --login LOGIN --password PASSWORD --attack ModuleName --arg1_to_mod arg1 --arg2_to_mod arg2
+
+
+Contact : jeremy.mousset@bt.com
