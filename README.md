@@ -1,8 +1,8 @@
 jmxploit
 ========
 
-Jmxploit is written in Java to audit security level of JMX API.
-This tool is dedicated to security auditors and researchers in order to analyse JMX API security level.
+Jmxploit is written in Java to audit security level of JMX API of a Tomcat environment.
+This tool is dedicated to security auditors and researchers in order to analyse JMX API security level 
 
 
 How to :
