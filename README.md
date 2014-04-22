@@ -19,6 +19,7 @@ $ java -jar jmxploit.jar  --host SERVER --port PORT --login LOGIN --password PAS
 If authentication succeeded, information about Java environment will appear and menu will ask you to choose a module to launch.
 
 test@jmxploit:java -jar jmxploit.jar  --host tomcat --port 8050 --login controlRole --password password
+
      ____.  _____  ____  ___      .__         .__  __   
     |    | /     \ \   \/  /_____ |  |   ____ |__|/  |_ 
     |    |/  \ /  \ \     /\____ \|  |  /  _ \|  \   __\
@@ -66,6 +67,7 @@ In this case jmxploit requires the attack name and required parameters in argume
 To list available attacks please use
 
 $java -jar jmxploit.jar --host SERVER --port PORT --login LOGIN --password PASSWORD --list 
+
      ____.  _____  ____  ___      .__         .__  __   
     |    | /     \ \   \/  /_____ |  |   ____ |__|/  |_ 
     |    |/  \ /  \ \     /\____ \|  |  /  _ \|  \   __\
@@ -94,6 +96,7 @@ $java -jar jmxploit.jar --host yourserver --port XXXX --login LOGIN --password P
 For example to create user :
 
 test@jmxploit:java -jar jmxploit.jar  --host tomcat --port 8050 --login controlRole --password password --attack CreateUser --username tomcat_user
+
      ____.  _____  ____  ___      .__         .__  __   
     |    | /     \ \   \/  /_____ |  |   ____ |__|/  |_ 
     |    |/  \ /  \ \     /\____ \|  |  /  _ \|  \   __\
