@@ -1,4 +1,4 @@
-jmxploit
+Jmxploit
 ========
 
 Jmxploit is written in Java to audit the security level of the JMX API in Tomcat environment.
