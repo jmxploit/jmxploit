@@ -120,5 +120,7 @@ CreateUser will be launch
 
  User should be created
 ```
- 
+
 Contact : jeremy.mousset@bt.com
+
+Thanks to @righettod (https://github.com/righettod) for his contribution.
